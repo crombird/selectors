@@ -1,0 +1,18 @@
+{
+  "name": "@crombird/selectors",
+  "license": "CC-BY-SA-4.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./alternate-titles": "./selectors/alternate-titles.json",
+    "./attribution-metadata": "./selectors/attribution-metadata.json"
+  },
+  "scripts": {
+    "validate:alternate-titles": "ajv validate -s selectors/alternate-titles.schema.json -d selectors/alternate-titles.json",
+    "validate:attribution-metadata": "ajv validate -s selectors/attribution-metadata.schema.json -d selectors/attribution-metadata.json",
+    "validate": "bun run validate:alternate-titles && bun run validate:attribution-metadata"
+  },
+  "devDependencies": {
+    "ajv-cli": "^5.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" }
+  },
+  "patternProperties": {
+    "^http://[a-z-]+\\.wikidot\\.com/[a-z0-9:-]+$": {
+      "type": "object",
+      "properties": {
+        "dateFormat": { "type": "string" },
+        "skipHeader": { "type": "boolean" },
+        "types": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "enum": ["AUTHOR", "REWRITE", "TRANSLATOR", "MAINTAINER"]
+          }
+        }
+      },
+      "required": ["dateFormat", "skipHeader", "types"]
+    }
+  },
+  "additionalProperties": false
+}

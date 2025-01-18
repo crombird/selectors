@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" }
+  },
+  "patternProperties": {
+    "^http://[a-z-]+\\.wikidot\\.com/[a-z0-9:-]+$": {
+      "anyOf": [{ "type": "string" }, { "type": "null" }]
+    }
+  },
+  "additionalProperties": false
+}
