@@ -1,0 +1,21 @@
+{
+  "$schema": "./hidden-pages.schema.json",
+  "conditions": [
+    [{ "type": "tag", "value": "fragment" }],
+    [{ "type": "tag", "value": "workbench" }],
+    [{ "type": "tag", "value": "splash" }],
+    [{ "type": "tag", "value": "unlisted" }],
+    [{ "type": "tag", "value": "_crom-hidden" }],
+    [{ "type": "category", "value": "fragment" }],
+    [{ "type": "category", "value": "sandbox" }],
+    [{ "type": "category", "value": "workbench" }],
+    [{ "type": "category", "value": "nav" }],
+    [{ "type": "category", "value": "forum" }],
+    [{ "type": "category", "value": "deleted" }],
+    [{ "type": "category", "value": "draft" }],
+    [{ "type": "category", "value": "more-by" }],
+    [{ "type": "category", "value": "attribution" }],
+    [{ "type": "category", "value": "unlisted" }],
+    [{ "type": "category", "value": "tag-metadata" }]
+  ]
+}
