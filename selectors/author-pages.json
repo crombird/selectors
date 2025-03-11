@@ -1,0 +1,18 @@
+{
+  "$schema": "./author-pages.schema.json",
+  "conditions": [
+    [{ "type": "tag", "value": "author" }],
+    [{ "type": "tag", "value": "translator" }],
+    [{ "type": "tag", "value": "作者頁面" }],
+    [{ "type": "tag", "value": "συγγραφέα" }],
+    [{ "type": "tag", "value": "作者" }],
+    [{ "type": "tag", "value": "著者ページ" }],
+    [{ "type": "tag", "value": "autore" }],
+    [{ "type": "tag", "value": "auteur" }],
+    [{ "type": "tag", "value": "ficha" }],
+    [{ "type": "tag", "value": "penulis" }],
+    [{ "type": "tag", "value": "tác-giả" }],
+    [{ "type": "tag", "value": "author-page" }],
+    [{ "type": "tag", "value": "trang-tác-giả" }]
+  ]
+}
