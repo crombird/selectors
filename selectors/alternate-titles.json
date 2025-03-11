@@ -414,6 +414,7 @@
   "http://scp-vn.wikidot.com/scp-series-vn": ".series li",
   "http://scp-vn.wikidot.com/scp-international": ".yui-content li",
   "http://scp-vn.wikidot.com/joke-scps": ".series:lt(3) li",
+  "http://scp-vn.wikidot.com/joke-scps-vn": ".series li",
   "http://scp-vn.wikidot.com/scp-ex": ".series li",
 
   "http://scp-id.wikidot.com/scp-series": ".series:not(:first) li",
