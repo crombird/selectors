@@ -42,6 +42,71 @@
     }
   },
 
+  "http://scp-vn.wikidot.com/attribution:mainlist": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:other-scp": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:misc": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:categories": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:mainlist-translation": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:other-scp-translation": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:misc-translation": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+  "http://scp-vn.wikidot.com/attribution:categories-translation": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": true,
+    "types": {
+      "tác-giả": "AUTHOR",
+      "viết-lại": "REWRITE"
+    }
+  },
+
   "http://wanderers-library.wikidot.com/attribution-metadata": {
     "dateFormat": "yyyy-MM-dd",
     "skipHeader": false,
@@ -122,15 +187,6 @@
     "types": {
       "autor": "AUTHOR",
       "przepisanie": "REWRITE"
-    }
-  },
-  "http://scp-vn.wikidot.com/attribution-metadata": {
-    "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
-    "types": {
-      "tác-giả": "AUTHOR",
-      "viết-lại": "REWRITE",
-      "lưu-giữ": "MAINTAINER"
     }
   },
   "http://backrooms-vn.wikidot.com/attribution-metadata": {
