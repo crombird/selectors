@@ -6,13 +6,15 @@
   "exports": {
     "./alternate-titles": "./selectors/alternate-titles.json",
     "./attribution-metadata": "./selectors/attribution-metadata.json",
-    "./hidden-pages": "./selectors/hidden-pages.json"
+    "./hidden-pages": "./selectors/hidden-pages.json",
+    "./author-pages": "./selectors/author-pages.json"
   },
   "scripts": {
     "validate:alternate-titles": "ajv validate -s selectors/alternate-titles.schema.json -d selectors/alternate-titles.json",
     "validate:attribution-metadata": "ajv validate -s selectors/attribution-metadata.schema.json -d selectors/attribution-metadata.json",
     "validate:hidden-pages": "ajv validate -s selectors/hidden-pages.schema.json -d selectors/hidden-pages.json",
-    "validate": "bun run validate:alternate-titles && bun run validate:attribution-metadata && bun run validate:hidden-pages"
+    "validate:author-pages": "ajv validate -s selectors/author-pages.schema.json -d selectors/author-pages.json",
+    "validate": "bun run validate:alternate-titles && bun run validate:attribution-metadata && bun run validate:hidden-pages && bun run validate:author-pages"
   },
   "devDependencies": {
     "ajv-cli": "^5.0.0"
