@@ -213,14 +213,6 @@
       "μεταγραφέας": "REWRITE"
     }
   },
-  "http://scp-idn.wikidot.com/attribution-metadata": {
-    "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
-    "types": {
-      "penulis": "AUTHOR",
-      "penulisulang": "REWRITE"
-    }
-  },
   "http://scp-id.wikidot.com/attribution-metadata": {
     "dateFormat": "yyyy-MM-dd",
     "skipHeader": false,
