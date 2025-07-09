@@ -164,6 +164,7 @@
   "http://lafundacionscp.wikidot.com/serie-scp-es": ".series:first li",
   "http://lafundacionscp.wikidot.com/serie-scp-es-2": ".series:first li",
   "http://lafundacionscp.wikidot.com/serie-scp-es-3": ".series:first li",
+  "http://lafundacionscp.wikidot.com/serie-scp-es-4": ".series:first li",
   "http://lafundacionscp.wikidot.com/scps-humoristicos": ".series li",
   "http://lafundacionscp.wikidot.com/scps-archivados": ".series:lt(2) li",
   "http://lafundacionscp.wikidot.com/scp-ex": ".series li",
