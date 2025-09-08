@@ -16,6 +16,7 @@
     [{ "type": "category", "value": "more-by" }],
     [{ "type": "category", "value": "attribution" }],
     [{ "type": "category", "value": "unlisted" }],
-    [{ "type": "category", "value": "tag-metadata" }]
+    [{ "type": "category", "value": "tag-metadata" }],
+    [{ "type": "category", "value": "trimmed" }]
   ]
 }
