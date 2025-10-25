@@ -145,6 +145,14 @@
       "维护者": "MAINTAINER"
     }
   },
+  "http://scp-wiki-cn.wikidot.com/attribution-metadata-translation": {
+    "dateFormat": "yyyy-MM-dd",
+    "skipHeader": false,
+    "types": {
+      "翻译": "TRANSLATOR",
+      "维护者": "MAINTAINER"
+    }
+  },
   "http://backrooms-wiki-cn.wikidot.com/attribution-metadata": {
     "dateFormat": "yyyy-MM-dd",
     "skipHeader": false,
