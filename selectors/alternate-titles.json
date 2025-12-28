@@ -32,6 +32,7 @@
   "http://scp-wiki-cn.wikidot.com/scp-series-cn-2": "#toc1 ~ ul li",
   "http://scp-wiki-cn.wikidot.com/scp-series-cn-3": "#toc1 ~ ul li",
   "http://scp-wiki-cn.wikidot.com/scp-series-cn-4": "#toc1 ~ ul li",
+  "http://scp-wiki-cn.wikidot.com/scp-series-cn-5": "#toc1 ~ ul li",
   "http://scp-wiki-cn.wikidot.com/scp-ex": "#toc0 + ul li",
   "http://scp-wiki-cn.wikidot.com/joke-scps": ".series:lt(3) li",
   "http://scp-wiki-cn.wikidot.com/archived-scps": ".series:lt(2) li",
