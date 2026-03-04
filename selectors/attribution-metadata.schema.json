@@ -7,8 +7,8 @@
     "^http://[a-z-]+\\.wikidot\\.com/[a-z0-9:-]+$": {
       "type": "object",
       "properties": {
+        "rowSelector": { "type": "string" },
         "dateFormat": { "type": "string" },
-        "skipHeader": { "type": "boolean" },
         "types": {
           "type": "object",
           "additionalProperties": {
@@ -17,7 +17,7 @@
           }
         }
       },
-      "required": ["dateFormat", "skipHeader", "types"]
+      "required": ["dateFormat", "rowSelector", "types"]
     }
   },
   "additionalProperties": false

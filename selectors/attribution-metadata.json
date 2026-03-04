@@ -2,8 +2,8 @@
   "$schema": "./attribution-metadata.schema.json",
 
   "http://scp-wiki.wikidot.com/attribution:mainlist": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -12,8 +12,8 @@
     }
   },
   "http://scp-wiki.wikidot.com/attribution:other-scp": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -22,8 +22,8 @@
     }
   },
   "http://scp-wiki.wikidot.com/attribution:misc": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -32,8 +32,8 @@
     }
   },
   "http://scp-wiki.wikidot.com/attribution:categories": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -43,64 +43,64 @@
   },
 
   "http://scp-vn.wikidot.com/attribution:mainlist": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:other-scp": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:misc": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:categories": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:mainlist-translation": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:other-scp-translation": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:misc-translation": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
     }
   },
   "http://scp-vn.wikidot.com/attribution:categories-translation": {
+    "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": true,
     "types": {
       "tác-giả": "AUTHOR",
       "viết-lại": "REWRITE"
@@ -108,8 +108,8 @@
   },
 
   "http://wanderers-library.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -118,8 +118,8 @@
     }
   },
   "http://lafundacionscp.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "dd-MM-yyyy",
-    "skipHeader": false,
     "types": {
       "autor": "AUTHOR",
       "reescritor": "REWRITE",
@@ -128,16 +128,16 @@
     }
   },
   "http://fondazionescp.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "dd-MM-yyyy",
-    "skipHeader": false,
     "types": {
       "autore": "AUTHOR",
       "traduttore": "TRANSLATOR"
     }
   },
   "http://scp-wiki-cn.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "作者": "AUTHOR",
       "重写": "REWRITE",
@@ -146,16 +146,16 @@
     }
   },
   "http://scp-wiki-cn.wikidot.com/attribution-metadata-translation": {
+    "rowSelector": ".wiki-content-table:lt(3) tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "翻译": "TRANSLATOR",
       "维护者": "MAINTAINER"
     }
   },
   "http://backrooms-wiki-cn.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table:lt(3) tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "作者": "AUTHOR",
       "重写": "REWRITE",
@@ -164,24 +164,24 @@
     }
   },
   "http://scp-jp.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE"
     }
   },
   "http://scp-jp.wikidot.com/attribution-metadata-jp": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE"
     }
   },
   "http://scpko.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "작성자": "AUTHOR",
       "번역자": "TRANSLATOR",
@@ -190,16 +190,16 @@
     }
   },
   "http://scp-pl.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "autor": "AUTHOR",
       "przepisanie": "REWRITE"
     }
   },
   "http://backrooms-vn.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "tác giả": "AUTHOR",
       "viết lại": "REWRITE",
@@ -207,31 +207,31 @@
     }
   },
   "http://wanderers-library-vn.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "tác-giả": "AUTHOR"
     }
   },
   "http://scp-el.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "συγγραφέας": "AUTHOR",
       "μεταγραφέας": "REWRITE"
     }
   },
   "http://scp-id.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "penulis": "AUTHOR",
       "penulisulang": "REWRITE"
     }
   },
   "http://scp-pt-br.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "autor": "AUTHOR",
       "reescrita": "REWRITE",
@@ -239,8 +239,8 @@
     }
   },
   "http://backrooms-wiki.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
@@ -248,16 +248,16 @@
     }
   },
   "http://pl-backrooms-wiki.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "autor": "AUTHOR",
       "przepisujący": "REWRITE"
     }
   },
   "http://scp-int.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
     "dateFormat": "yyyy-MM-dd",
-    "skipHeader": false,
     "types": {
       "author": "AUTHOR",
       "rewrite": "REWRITE",
