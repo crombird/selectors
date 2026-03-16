@@ -549,5 +549,17 @@
   "http://it-backrooms-wiki.wikidot.com/objects": "#toc1 ~ ul li",
   "http://it-backrooms-wiki.wikidot.com/normal-levels-i-it": "#toc2 ~ ul li",
   "http://it-backrooms-wiki.wikidot.com/entities-it": "#toc2 ~ ul li",
-  "http://it-backrooms-wiki.wikidot.com/objects-it": "#toc1 ~ ul li"
+  "http://it-backrooms-wiki.wikidot.com/objects-it": "#toc1 ~ ul li",
+
+  "http://th-backrooms-wiki.wikidot.com/normal-levels-i": ".yui-navset > .yui-content > div > ul li",
+  "http://th-backrooms-wiki.wikidot.com/entities": ".yui-navset > .yui-content > div > ul li, #toc0 ~ ul li",
+  "http://th-backrooms-wiki.wikidot.com/objects": ".yui-navset > .yui-content > div > ul li",
+  "http://th-backrooms-wiki.wikidot.com/phenomena": "#toc0 ~ div ul li",
+  "http://th-backrooms-wiki.wikidot.com/sub-layers": "#toc3 ~ div ul li",
+  "http://th-backrooms-wiki.wikidot.com/enigmatic-levels": ".yui-content ul li",
+  "http://th-backrooms-wiki.wikidot.com/enigmatic-entities": ".yui-content ul li",
+  "http://th-backrooms-wiki.wikidot.com/normal-levels-th-i": ".yui-navset > .yui-content > div > ul li",
+  "http://th-backrooms-wiki.wikidot.com/entities-th": ".yui-navset > .yui-content > div > ul li",
+  "http://th-backrooms-wiki.wikidot.com/objects-th": ".yui-navset > .yui-content > div > ul li",
+  "http://th-backrooms-wiki.wikidot.com/phenomena-th": ".yui-navset > .yui-content > div > ul li"
 }
