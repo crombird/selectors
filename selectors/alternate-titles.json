@@ -39,6 +39,9 @@
   "http://scp-wiki-cn.wikidot.com/scp-001": ".series p",
   "http://scp-wiki-cn.wikidot.com/spc-001": ".series p",
   "http://scp-wiki-cn.wikidot.com/scp-international": ".yui-content li",
+  "http://scp-wiki-cn.wikidot.com/scp-cn-001": ".series:not(:first) p",
+  "http://scp-wiki-cn.wikidot.com/joke-scps-cn": ".series:first li",
+  "http://scp-wiki-cn.wikidot.com/scp-ex-cn": ".series:first li",
 
   "http://scp-jp.wikidot.com/scp-series": ".series:first li",
   "http://scp-jp.wikidot.com/scp-series-2": ".series:first li",
