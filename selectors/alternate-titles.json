@@ -452,6 +452,8 @@
   "http://scp-vn.wikidot.com/it-hub": ".yui-content li",
   "http://scp-vn.wikidot.com/int-hub": ".series li",
   "http://scp-vn.wikidot.com/other-hub": ".series li",
+  "http://scp-vn.wikidot.com/scp-001": ".series:not(:first) p",
+  "http://scp-vn.wikidot.com/scp-ex-vn": ".series li",
 
   "http://scp-id.wikidot.com/scp-series": ".series:not(:first) li",
   "http://scp-id.wikidot.com/scp-series-2": ".series:not(:first) li",
