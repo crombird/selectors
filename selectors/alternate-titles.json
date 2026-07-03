@@ -17,6 +17,7 @@
   "http://scp-wiki.wikidot.com/scp-001": ".series p",
   "http://scp-wiki.wikidot.com/spc-001": ".series p",
   "http://scp-wiki.wikidot.com/scp-international": ".yui-content li",
+  "http://scp-wiki.wikidot.com/lost-scp-series": ".series:first li",
 
   "http://scp-wiki-cn.wikidot.com/scp-series": "#toc1 ~ ul li",
   "http://scp-wiki-cn.wikidot.com/scp-series-2": "#toc1 ~ ul li",
