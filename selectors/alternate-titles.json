@@ -167,7 +167,7 @@
   "http://scp-pl.wikidot.com/archived-scps": ".series li",
   "http://scp-pl.wikidot.com/scp-001": ".series p",
   "http://scp-pl.wikidot.com/scp-pl-001": ".series p",
-  "http://scp-pl.wikidot.com/scp-international": ".content-panel p",
+  "http://scp-pl.wikidot.com/scp-international": ".yui-content li",
 
   "http://lafundacionscp.wikidot.com/scp-series": ".series:first li",
   "http://lafundacionscp.wikidot.com/scp-series-2": ".series:first li",
