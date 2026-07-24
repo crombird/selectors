@@ -263,5 +263,14 @@
       "rewrite": "REWRITE",
       "translator": "TRANSLATOR"
     }
+  },
+  "http://nationarea.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "作者": "AUTHOR",
+      "重写": "REWRITE",
+      "维护者": "MAINTAINER"
+    }
   }
 }
