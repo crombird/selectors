@@ -18,6 +18,7 @@
   "http://scp-wiki.wikidot.com/spc-001": ".series p",
   "http://scp-wiki.wikidot.com/scp-international": ".yui-content li",
   "http://scp-wiki.wikidot.com/lost-scp-series": ".series:first li",
+  "http://scp-wiki.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-wiki-cn.wikidot.com/scp-series": "#toc1 ~ ul li",
   "http://scp-wiki-cn.wikidot.com/scp-series-2": "#toc1 ~ ul li",
@@ -50,6 +51,7 @@
   "http://scp-wiki-cn.wikidot.com/scp-series-jp-4": ".series:first li",
   "http://scp-wiki-cn.wikidot.com/joke-scps-jp": ".series:first li",
   "http://scp-wiki-cn.wikidot.com/scp-jp-ex": ".series:first li",
+  "http://scp-wiki-cn.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-jp.wikidot.com/scp-series": ".series:first li",
   "http://scp-jp.wikidot.com/scp-series-2": ".series:first li",
@@ -89,6 +91,7 @@
   "http://scp-jp.wikidot.com/scp-series-cs": ".series:first li",
   "http://scp-jp.wikidot.com/scp-es-ex": ".series li",
   "http://scp-jp.wikidot.com/scp-ua-ex": ".series li",
+  "http://scp-jp.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-int.wikidot.com/ru-hub": ":is(#toc1, #toc2, #toc3) + ul li",
   "http://scp-int.wikidot.com/ko-hub": ":is(#toc1, #toc2) + ul li",
@@ -130,6 +133,7 @@
   "http://fondationscp.wikidot.com/scp-001": ".series:eq(1) p",
   "http://fondationscp.wikidot.com/scp-001-fr": ".series:eq(1) p",
   "http://fondationscp.wikidot.com/spc-001": ".series:eq(1) p",
+  "http://fondationscp.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-ru.wikidot.com/scp-series": null,
   "http://scp-ru.wikidot.com/scp-series-2": null,
@@ -207,6 +211,7 @@
   "http://lafundacionscp.wikidot.com/scp-001-fr": null,
   "http://lafundacionscp.wikidot.com/scp-001-jp": ".series p",
   "http://lafundacionscp.wikidot.com/scp-001-ru": null,
+  "http://lafundacionscp.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-th.wikidot.com/scp-series": ".series li",
   "http://scp-th.wikidot.com/scp-series-2": ".series li",
@@ -374,6 +379,7 @@
   "http://scpko.wikidot.com/scp-001": ".series p",
   "http://scpko.wikidot.com/scp-001-jp": ".series p",
   "http://scpko.wikidot.com/scp-001-ko": ".series p",
+  "http://scpko.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-el.wikidot.com/scp-series": ".series:first li",
   "http://scp-el.wikidot.com/scp-series-2": ".series:first li",
@@ -466,6 +472,7 @@
   "http://scp-vn.wikidot.com/scp-001-vn": ".series p",
   "http://scp-vn.wikidot.com/scp-cn-001": ".series p",
   "http://scp-vn.wikidot.com/scp-zh-001": ".series p",
+  "http://scp-vn.wikidot.com/scp-l001": ".series:last p",
 
   "http://scp-id.wikidot.com/scp-series": ".series:not(:first) li",
   "http://scp-id.wikidot.com/scp-series-2": ".series:not(:first) li",
