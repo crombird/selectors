@@ -42,6 +42,55 @@
     }
   },
 
+  "http://scp-jp.wikidot.com/attribution-metadata": {
+    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+  "http://scp-jp.wikidot.com/fragment:attribution-metadata-jp-categories": {
+    "rowSelector": ".wiki-content-table tr",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+  "http://scp-jp.wikidot.com/fragment:attribution-metadata-jp-misc": {
+    "rowSelector": ".wiki-content-table tr",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+  "http://scp-jp.wikidot.com/fragment:attribution-metadata-jp-scp-1": {
+    "rowSelector": ".wiki-content-table tr",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+  "http://scp-jp.wikidot.com/fragment:attribution-metadata-jp-scp-2": {
+    "rowSelector": ".wiki-content-table tr",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+  "http://scp-jp.wikidot.com/fragment:attribution-metadata-jp-scp-other": {
+    "rowSelector": ".wiki-content-table tr",
+    "dateFormat": "yyyy-MM-dd",
+    "types": {
+      "author": "AUTHOR",
+      "rewrite": "REWRITE"
+    }
+  },
+
   "http://scp-vn.wikidot.com/attribution:mainlist": {
     "rowSelector": ".wiki-content-table tr",
     "dateFormat": "yyyy-MM-dd",
@@ -161,22 +210,6 @@
       "重写": "REWRITE",
       "翻译": "TRANSLATOR",
       "维护者": "MAINTAINER"
-    }
-  },
-  "http://scp-jp.wikidot.com/attribution-metadata": {
-    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
-    "dateFormat": "yyyy-MM-dd",
-    "types": {
-      "author": "AUTHOR",
-      "rewrite": "REWRITE"
-    }
-  },
-  "http://scp-jp.wikidot.com/attribution-metadata-jp": {
-    "rowSelector": ".wiki-content-table tr:nth-of-type(n+2)",
-    "dateFormat": "yyyy-MM-dd",
-    "types": {
-      "author": "AUTHOR",
-      "rewrite": "REWRITE"
     }
   },
   "http://scpko.wikidot.com/attribution-metadata": {
